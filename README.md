@@ -118,3 +118,7 @@ REDIS_URL=redis://redis_db:6379/0
 ```
 
 Убедитесь, что `REDIS_URL` указывает на правильный хост и порт, если вы не используете `docker-compose` или если Redis запущен на другом адресе.
+
+Пример выполнения запросов/работы API(run_api_requsets.py):
+<img width="972" height="927" alt="image" src="https://github.com/user-attachments/assets/efbb2acf-e5c2-4133-a4e3-662710db0a6b" />
+
