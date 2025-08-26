@@ -33,8 +33,8 @@
 1.  **Склонируйте репозиторий** (если еще не сделали это):
 
     ```bash
-    git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-    cd fastapi_switchable_storage
+    git clone <URL_РЕПОЗИТОРИЯ>
+
     ```
 
 2.  **Установите зависимости (для локального запуска)**:
@@ -46,10 +46,10 @@
 3.  **Создайте файл `.env`**: Создайте файл с именем `.env` в корневой директории проекта (`fastapi_switchable_storage/`) и скопируйте в него следующее содержимое:
 
     ```ini
-    # STORAGE_TYPE can be: in_memory, sqlite, redis
+    # STORAGE_TYPE может быть: in_memory, sqlite, redis
     STORAGE_TYPE=in_memory
     REDIS_URL=redis://redis_db:6379/0
-    # SQLITE_DATABASE_URL is optional, defaults to sqlite:///./sqlite.db
+    # SQLITE_DATABASE_URL опционально, по-умолчанию:///./sqlite.db
     # SQLITE_DATABASE_URL=sqlite:///./data/sqlite.db
     ```
 
